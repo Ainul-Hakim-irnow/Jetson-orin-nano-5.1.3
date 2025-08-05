@@ -27,12 +27,12 @@ jtop
 ```
 
 ## Install VS Code
-
 ```
 cd ~/Downloads
 ```
 ```
 wget "https://code.visualstudio.com/docs/?dv=linuxarm64_deb"
+```
 ```
 sudo dpkg -i package_name.deb
 ```
