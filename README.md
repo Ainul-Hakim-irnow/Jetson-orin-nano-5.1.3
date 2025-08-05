@@ -13,7 +13,7 @@ sudo reboot
 
 ## Install Jtop
 ```
-    sudo pip3 install -U jetson-stats
+sudo pip3 install -U jetson-stats
 ```
 ```
 sudo systemctl restart jtop.service
