@@ -7,6 +7,9 @@ sudo apt update
 ```
 sudo apt install python3-pip
 ```
+```
+sudo reboot
+```
 
 ## Install Jtop
 ```
@@ -22,3 +25,17 @@ After reboot
 ```
 jtop
 ```
+
+## Install VS Code
+copy and paste to broswer
+```
+https://code.visualstudio.com/docs/?dv=linuxarm64_deb
+```
+Open terminal
+```
+cd ~/Downloads
+```
+```
+sudo dpkg -i package_name.deb
+```
+
