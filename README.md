@@ -2,6 +2,6 @@
 
 ## Install pip
 
-'''shell
+'''
 sudo apt update
 '''
