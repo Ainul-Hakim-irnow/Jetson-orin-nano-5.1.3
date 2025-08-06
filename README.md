@@ -1,4 +1,14 @@
 # Jetson-orin-nano-5.1.3
+For Seeed Studio reComputer **DO NOT** use ```sudo apt upgarde```
+
+## Install Python 3.10
+Check if python 3.10 install
+```
+python3 --version
+```
+If no
+```
+
 
 ## Install pip
 ```
