@@ -37,64 +37,70 @@ python3 ---version
 ```
 sudo apt update
 ```
-Install pip
+1. Install pip
 ```
 sudo apt install python3-pip
 ```
-```
-sudo reboot
-```
 
 ## Install Jtop
+1. Install Jtop
 ```
-sudo pip install -U jetson-stats
+pip install -U jetson-stats
 ```
+2. Initialize service
 ```
 sudo systemctl restart jtop.service
 ```
+3. Reboot
 ```
 sudo reboot
 ```
-After reboot
+4. After reboot, check Jtop
 ```
 jtop
 ```
 
 ## Install VS Code
-You can download VS Code [here](https://code.visualstudio.com/docs/?dv=linuxarm64_deb)
+1. You can download VS Code [here](https://code.visualstudio.com/docs/?dv=linuxarm64_deb)
 
-Open terminal
+2. Open terminal
 ```
 cd ~/Downloads
 ```
+3. Install VS Code *.deb file
 ```
 sudo dpkg -i package_name.deb
 ```
 
 ## Install Pylon
-You can download *.tar.gz file [here](https://drive.google.com/file/d/1AKmBRzHc4yT-R1AkfoSfUR2PYj0U7Uz_/view?usp=sharing)
+1. You can download *.tar.gz file [here](https://drive.google.com/file/d/1AKmBRzHc4yT-R1AkfoSfUR2PYj0U7Uz_/view?usp=sharing)
 
-Open terminal
+2. Open terminal
 ```
 cd ~/Downloads
 ```
+3. Unzip the file
 ```
 sudo tar -xvf pylon_package_name.tar.gz
 ```
+4. Install dependencies
 ```
 sudo apt-get install libxcb-cursor0
 ```
+5. Install pylon software
 ```
 sudo dpkg -i pylon_package_name.deb
 ```
+6. Install codemeter runtime
 ```
 sudo dpkg -i codemeter_package_name.deb
 ```
+7. Setup USB
 ```
 sudo /opt/pylon/share/pylon/setup-usb.sh
 ```
-Check Pylon Software. If success install pypylon library
+8. Check Pylon Software. If success install pypylon library
 ```
 pip install pypylon
 ```
-After successfull install pylon. Try it using [this](opencv.py) code above
+9. After successfull install pylon. Try it using [this](opencv.py) code above
