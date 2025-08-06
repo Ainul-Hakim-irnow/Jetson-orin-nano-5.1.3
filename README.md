@@ -46,10 +46,8 @@ jtop
 ```
 
 ## Install VS Code
-Copy and paste this url to the browser
-```
-https://code.visualstudio.com/docs/?dv=linuxarm64_deb
-```
+You can download VS Code [here](https://code.visualstudio.com/docs/?dv=linuxarm64_deb)
+
 Open terminal
 ```
 cd ~/Downloads
