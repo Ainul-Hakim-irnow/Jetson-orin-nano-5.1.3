@@ -57,9 +57,6 @@ cd ~/Downloads
 ```
 sudo dpkg -i package_name.deb
 ```
-```
-sudo reboot
-```
 
 ## Install Pylon
 Copy and paste this url to the browser. Download *.tar.gz file
