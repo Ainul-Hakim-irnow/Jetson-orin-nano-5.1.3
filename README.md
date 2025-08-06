@@ -2,27 +2,42 @@
 For Seeed Studio reComputer **DO NOT** use ```sudo apt upgarde```
 
 ## Install Python 3.10
-Check if python 3.10 install
+1. Check if python 3.10 install
 ```
 python3.10 --version
 ```
-Check if default python version
+2. Check if default python version
 ```
 python3 --version
 ```
-If no python 3.10 install;
+3. If no python 3.10 install;
 ```
 sudo apt install python3.10 python3.10-dev python3.10-venv
 ```
-Check
+4. Check
 ```
 python3.10 --version
+```
+5. Set python 3.10 as highest priority
+```
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 2
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 3
+```
+6. Update pyhton 3.10 as default
+```
+sudo update-alternatives --config python3
+```
+7. Check the default
+```
+python3 ---version
 ```
 
 ## Install pip
 ```
 sudo apt update
 ```
+Install pip
 ```
 sudo apt install python3-pip
 ```
