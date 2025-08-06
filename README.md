@@ -1,42 +1,41 @@
 # Jetson-orin-nano-5.1.3
 For Seeed Studio reComputer **DO NOT** use ```sudo apt upgarde```
 
-## Install Python 3.10
+## Install Python 3.10 and enviroment
 1. Check if python 3.10 install
 ```
 python3.10 --version
 ```
-2. Check if default python version
-```
-python3 --version
-```
-3. If no python 3.10 install;
+2. If no python 3.10 install;
 ```
 sudo apt install python3.10 python3.10-dev python3.10-venv
 ```
-4. Check
+3. Check
 ```
 python3.10 --version
 ```
-5. Set python 3.10 as highest priority
+4. Create environment
 ```
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.9 2
-sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 3
-```
-6. Update pyhton 3.10 as default
-```
-sudo update-alternatives --config python3
-```
-7. Check the default
-```
-python3 ---version
-```
+python3.10 -m venv vnev
 
-## Install pip
+## Install pip at python 3.10
 ```
 sudo apt update
 ```
+1. Open bashrc
+```
+nano ~/.bashrc
+```
+2. Scroll to the bottom and paste;
+```
+alias pip='python3.10 -m pip'
+```
+3. Press ```Ctrl + X```, then ```Y``` to save, then ```Enter``` to exit
+4. Apply change
+```
+source ~/.bashrc
+```
+
 1. Install pip
 ```
 sudo apt install python3-pip
