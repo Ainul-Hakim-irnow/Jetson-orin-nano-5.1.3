@@ -4,11 +4,20 @@ For Seeed Studio reComputer **DO NOT** use ```sudo apt upgarde```
 ## Install Python 3.10
 Check if python 3.10 install
 ```
+python3.10 --version
+```
+Check if default python version
+```
 python3 --version
 ```
-If no
+If no python 3.10 install;
 ```
-
+sudo apt install python3.10 python3.10-dev python3.10-venv
+```
+Check
+```
+python3.10 --version
+```
 
 ## Install pip
 ```
@@ -76,3 +85,8 @@ sudo dpkg -i codemeter_package_name.deb
 ```
 sudo /opt/pylon/share/pylon/setup-usb.sh
 ```
+Check Pylon Software. If success install pypylon library
+```
+pip install pypylon
+```
+After successfull install pylon. Try it using [this](opencv.py) code above
