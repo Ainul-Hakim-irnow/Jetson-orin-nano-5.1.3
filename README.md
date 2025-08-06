@@ -17,6 +17,7 @@ python3.10 --version
 4. Create environment
 ```
 python3.10 -m venv vnev
+```
 
 ## Install pip at python 3.10
 ```
@@ -35,10 +36,12 @@ alias pip='python3.10 -m pip'
 ```
 source ~/.bashrc
 ```
-
-1. Install pip
+5. Install pip
 ```
 sudo apt install python3-pip
+```
+```
+sudo python3.10 -m ensurepip --upgrade
 ```
 
 ## Install Jtop
