@@ -45,8 +45,6 @@ source ~/.bashrc
 5. Install pip
 ```
 sudo apt install python3-pip
-```
-```
 sudo python3.10 -m ensurepip --upgrade
 ```
 
