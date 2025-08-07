@@ -12,6 +12,7 @@ python3.10 --version
 ```
 2. If no python 3.10 install;
 ```
+sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.10 python3.10-dev python3.10-venv
 ```
 3. Check
