@@ -47,11 +47,15 @@ source ~/.bashrc
 sudo apt install python3-pip
 sudo python3.10 -m ensurepip --upgrade
 ```
+6. Upgrade pip
+```
+pip install --upgrade pip
+```
 
 ## Install Jtop
 1. Install Jtop
 ```
-pip install -U jetson-stats
+sudo pip install -U jetson-stats
 ```
 2. Initialize service
 ```
