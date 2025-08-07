@@ -26,6 +26,7 @@ python3.10 -m venv vnev
 
 ## Install pip for python 3.10
 ```
+sudo apt update
 sudo apt install nano
 ```
 1. Open bashrc
