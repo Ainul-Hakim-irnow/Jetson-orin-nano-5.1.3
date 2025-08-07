@@ -55,7 +55,7 @@ pip install --upgrade pip
 ## Install Jtop
 1. Install Jtop
 ```
-sudo pip install -U jetson-stats
+sudo python3.10 -m pip install -U jetson-stats
 ```
 2. Initialize service
 ```
