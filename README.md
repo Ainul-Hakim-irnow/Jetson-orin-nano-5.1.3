@@ -113,4 +113,8 @@ sudo /opt/pylon/share/pylon/setup-usb.sh
 ```
 pip install pypylon
 ```
+10. Download OpenCV
+```
+pip install opencv-python
+```
 9. After successfull install pylon. Try it using [this](opencv.py) code above
