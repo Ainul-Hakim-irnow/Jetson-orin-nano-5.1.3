@@ -36,6 +36,10 @@ nano ~/.bashrc
 2. Scroll to the bottom and paste;
 ```
 alias pip='python3.10 -m pip'
+
+export CUDA_HOME=/usr/local/cuda
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64
+export PATH=$PATH:$CUDA_HOME/bin
 ```
 3. Press ```Ctrl + X```, then ```Y``` to save, then ```Enter``` to exit
 4. Apply change
